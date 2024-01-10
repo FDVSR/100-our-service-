@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 55px 0;
+}
+
+.service-title-text{
+    font-family: Lora, serif;;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.service-content{
+    margin: 65px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.service-content-card{
+    position: relative;
+    width: 330px;
+    height: 443px;
+}
+.service-content-card-overlay{
+    position: absolute;
+    width: 300px;
+    box-shadow: 0 15px 55px 0 #00000014;
+    background-color: #fff;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.service-content-card-overlay-text{
+    margin: 20px 0 0 18px;
+    width: 218px;
+}
+
+.service-content-card-overlay-text-title{
+    font-family: Lora, serif;;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+}
+
+.service-content-card-overlay-text-description{
+    font-family: Lato, sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 5px 0 0;
+}
+
+.service-content-card-overlay-more{
+    text-decoration: none;
+    align-self: flex-end;
+    color: #EC5598;
+    margin: 16px 15px 20px 0;
+    cursor: pointer;
+}
+
+.service-content-card-overlay-more::before{
+    width: 46px;
+    background-color: #EC5598;
+    border: 1.5px solid #EC5598;
+    content: '';
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    top: -4px;
+    cursor: default;
+}
+
+.service-more_button{
+    text-transform: uppercase;
+    width: 240px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1.5px solid #FF427F;
+    color: #EC5598;
+    background-color: #fff;
+    font-family: Lato, sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
